@@ -103,7 +103,7 @@
             "private_key": "sCLYPFTd2EZpSqxeaB9YXW4RHPybJxUxq956IDfKB00=",
             "reserved": "3HKH",
             "server": "188.114.97.177",
-            "server_port": 5279,
+            "server_port": 1080,
             "type": "wireguard",
             "domain_strategy": "prefer_ipv6",
             "detour": "💦 Warp",
@@ -120,7 +120,7 @@
             "private_key": "sFgO3h8lWc/PC8yphbUHuJi2lP1XcRzoXDNJZfeBEF0=",
             "reserved": "SIox",
             "server": "162.159.192.206",
-            "server_port": 878,
+            "server_port": 1080,
             "type": "wireguard",
             "domain_strategy": "prefer_ipv6",
             "tag": "💦 Warp"
