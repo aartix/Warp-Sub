@@ -109,27 +109,23 @@
        "type": "block"
      },
      {
-       "obfs": {
-         "password": "sDFgv452\u0026$@jh*\u0026*ks39HS2Hj",
-         "type": "salamander"
-       },
-       "password": "TzkWCfZHzj",
-       "server": "194.9.6.54",
-       "server_port": 25998,
-       "tag": "KZ+Hysteria2",
-       "tls": {
-         "ech": {
-           "config": [
-             "-----BEGIN ECH CONFIGS-----",
-             "ADn+DQA1AAAgACDy3ubfDdSUVQWVRiupepJnc+zS1sitylhvLzyw80unJgAIAAEA",
-             "AQABAAMAAicnAAA=",
-             "-----END ECH CONFIGS-----"
-           ]
-         },
-         "enabled": true,
-         "insecure": true
-       },
-       "type": "hysteria2"
+       "type": "wireguard",
+       "server": "162.159.195.88",
+       "server_port": 880,
+       "local_address": [
+               "172.16.0.2/32",
+                "2606:4700:110:811b:257:e76e:9ff7:4a71/128"
+            ],
+       "private_key": "oNEH81wg9A3dUibd1R1KSGg/WuZtoeRsIo3u8hkctGI=",
+       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+       "reserved": [
+                53,
+                117,
+                136
+            ],
+       "mtu": 1384,
+       "workers": 2,
+       "tag": "WARP-MAIN"
      }
    ],
    "route": {
