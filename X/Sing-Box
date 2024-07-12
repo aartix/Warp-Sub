@@ -81,7 +81,8 @@
        "outbounds": [
          "auto",
          "direct",
-         "KZ+Hysteria2"
+         "WARP-MAIN",
+         "WARP-WIW"
        ],
        "tag": "proxy",
        "type": "selector"
@@ -89,7 +90,8 @@
      {
        "interval": "10m",
        "outbounds": [
-         "KZ+Hysteria2"
+         "WARP-MAIN",
+         "WARP-WIW"
        ],
        "tag": "auto",
        "tolerance": 50,
@@ -110,21 +112,43 @@
      },
      {
        "type": "wireguard",
-       "server": "162.159.195.88",
-       "server_port": 880,
+       "server": "188.114.96.79",
+       "server_port": 878,
        "local_address": [
             "172.16.0.2/32",
             "2606:4700:110:811b:257:e76e:9ff7:4a71/128"
           ],
-       "private_key": "oNEH81wg9A3dUibd1R1KSGg/WuZtoeRsIo3u8hkctGI=",
+       "private_key": "ABxlkgWDx4KluwwWGAtMkZZFZCbXRiEyw4MLIBVDm1Y\u003d",
        "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
        "reserved": [
-            53,
-            117,
-            136
+            114,
+            191,
+            215
        ],
        "mtu": 1384,
-       "tag": "KZ+Hysteria2"
+       "workers": 2,
+       "detour": "direct",
+       "tag": "WARP-MAIN"
+     },
+     {
+       "type": "wireguard",
+       "server": "188.114.97.113",
+       "server_port": 894,
+       "local_address": [
+            "172.16.0.2/32",
+            "2606:4700:110:811b:257:e76e:9ff7:4a71/128"
+          ],
+       "private_key": "kLUA7j2MG2qJKO6Hc7lghNrCrVqQ75vk3OswcCTdpkI\u003d",
+       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+       "reserved": [
+            226,
+            16,
+            120
+       ],
+       "mtu": 1384,
+       "workers": 2,
+       "detour": "WARP-MAIN",
+       "tag": "WARP-WIW"
      }
    ],
    "route": {
