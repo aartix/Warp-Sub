@@ -147,7 +147,7 @@
        ],
        "mtu": 1384,
        "workers": 2,
-       "detour": "WARP-MAIN",
+       "detour": "direct",
        "tag": "WARP-WIW"
      }
    ],
