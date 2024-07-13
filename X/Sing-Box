@@ -112,7 +112,7 @@
      },
      {
        "type": "wireguard",
-       "server": [2606:4700:d0::b05e:cc0d:60ca:eeef]",
+       "server":  "[2606:4700:d0::b05e:cc0d:60ca:eeef]",
        "server_port": 1074,
        "local_address": [
             "172.16.0.2/32",
